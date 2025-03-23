@@ -1,0 +1,101 @@
+
+├── QuantumWaveformTree.txt
+├── QwantumWaveform
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   │   └── Contents.json
+│   │   ├── AppIcon.appiconset
+│   │   │   └── Contents.json
+│   │   └── Contents.json
+│   ├── Preview Content
+│   │   └── Preview Assets.xcassets
+│   │       └── Contents.json
+│   ├── QuantumWaveform-Bridging-Header.h
+│   ├── QwantumWaveform.entitlements
+│   ├── README.md
+│   ├── Sources
+│   │   ├── App
+│   │   │   ├── AppDelegate.swift
+│   │   │   ├── ContentView.swift
+│   │   │   ├── Info.plist
+│   │   │   ├── Item.swift
+│   │   │   └── QuantumWaveformApp.swift
+│   │   ├── Core
+│   │   │   ├── Audio
+│   │   │   │   ├── AudioEngine.swift
+│   │   │   │   └── WaveformGenerator.swift
+│   │   │   ├── Quantum
+│   │   │   │   ├── QuantumMath.swift
+│   │   │   │   └── QuantumVisualizationComponent.swift
+│   │   │   └── Views
+│   │   │       ├── Metal3DView.swift
+│   │   │       └── MetalWaveformView.swift
+│   │   ├── Models
+│   │   │   ├── Complex.swift
+│   │   │   ├── Enums.swift
+│   │   │   └── QuantumSimulator.swift
+│   │   ├── Rendering
+│   │   │   ├── Metal
+│   │   │   │   ├── ErrorHandling.swift
+│   │   │   │   ├── ShaderManager.swift
+│   │   │   │   ├── WaveformMetal3DView.swift
+│   │   │   │   ├── WaveformRenderer.swift
+│   │   │   │   └── WaveformRenderer3D.swift
+│   │   │   ├── Shaders
+│   │   │   │   ├── AllShaders.metal
+│   │   │   │   ├── ComplexUtils.h
+│   │   │   │   ├── QuantumComputeShader.metal
+│   │   │   │   ├── QuantumKernels.metal
+│   │   │   │   ├── QuantumWaveFunctions.h
+│   │   │   │   ├── QuantumWaveShader.metal
+│   │   │   │   ├── ShaderRegistry.h
+│   │   │   │   ├── ShaderTypes.h
+│   │   │   │   ├── ShaderUtils.h
+│   │   │   │   ├── Shaders.metal
+│   │   │   │   ├── WaveformShader3D.metal
+│   │   │   │   └── WaveformShaders.metal
+│   │   │   └── Utils
+│   │   │       ├── ComplexUtils.h
+│   │   │       └── PerformanceMonitor.swift
+│   │   ├── UI
+│   │   │   ├── ViewModels
+│   │   │   │   ├── MainViewModel.swift
+│   │   │   │   └── WaveformViewModel.swift
+│   │   │   └── Views
+│   │   │       ├── AudioParametersView.swift
+│   │   │       ├── EnhancedSidebarView.swift
+│   │   │       ├── MainView.swift
+│   │   │       ├── MetalConfiguration.swift
+│   │   │       ├── QuantumVisualization3DView.swift
+│   │   │       ├── ScientificDataView.swift
+│   │   │       └── VisualizationSettingsView.swift
+│   │   └── Utilities
+│   │       ├── NotificationHandler.swift
+│   │       └── UserPreferences.swift
+│   ├── TECHNICAL_DOCUMENTATION.md
+│   └── Tests
+│       └── QuantumWaveformTests
+│           └── QuantumCalculationTests.swift
+├── QwantumWaveform.xcodeproj
+│   ├── project.pbxproj
+│   ├── project.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   ├── xcshareddata
+│   │   │   └── swiftpm
+│   │   │       └── configuration
+│   │   └── xcuserdata
+│   │       └── hawzhin.xcuserdatad
+│   │           └── UserInterfaceState.xcuserstate
+│   └── xcuserdata
+│       └── hawzhin.xcuserdatad
+│           ├── xcdebugger
+│           │   └── Breakpoints_v2.xcbkptlist
+│           └── xcschemes
+│               └── xcschememanagement.plist
+├── QwantumWaveformTests
+│   └── QwantumWaveformTests.swift
+└── QwantumWaveformUITests
+    ├── QwantumWaveformUITests.swift
+    └── QwantumWaveformUITestsLaunchTests.swift
+
+37 directories, 62 files
